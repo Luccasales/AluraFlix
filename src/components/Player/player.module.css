@@ -1,0 +1,14 @@
+/* player.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+video {
+    width: 100%;
+    height: auto; /* Ajusta a altura automaticamente */
+    max-height: 600px; /* Defina uma altura máxima para o vídeo */
+    object-fit: cover; /* Ajusta a maneira como o vídeo se encaixa no contêiner */
+}

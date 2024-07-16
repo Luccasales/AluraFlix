@@ -1,0 +1,28 @@
+.card {
+    position: relative;
+    width: 300px; /* Ajuste conforme necessário */
+    margin: 10px;
+}
+
+.capa {
+    width: 100%;
+    height: auto; /* Ajusta a altura automaticamente */
+    cursor: pointer; /* Adiciona um cursor pointer para indicar que é clicável */
+}
+
+.titulo {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.containerIcone{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconeEditar, .iconeExcluir {
+    width: 24px; /* Ajuste o tamanho dos ícones conforme necessário */
+    height: 24px;
+    margin: 0 8px;
+    cursor: pointer;
+}

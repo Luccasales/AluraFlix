@@ -1,0 +1,23 @@
+.buttons{
+    margin:40px 80px;
+    
+}
+
+.buttons button{
+    padding: 15px;
+    margin-right: 20px;
+    width: 180px;
+    height: 54px;
+    border-radius: 10px;
+    background-color: var(--preto);
+    border-color: var(--branco);
+    color: var(--branco);
+}
+
+
+.buttons button:hover{
+    background: var(--cinza);
+    cursor: pointer;
+    border-color: var(--azul);
+
+}
